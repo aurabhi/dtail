@@ -1,25 +1,25 @@
 # dtail
 A simple nodejs based tool to tail logs from a distributed cluster
 
-## Install
+#### Install
 Install the npm dependencies locally to the project
 
 ```
 npm install
 ```
 
-## Configure 
+#### Configure 
 Configure your cluster and its ssh access credentials via the config.json file.
 *Note*: The *filter* param takes the regex accepted by unix *grep*
 
 
-## Run
+#### Run
 ```
 node dtail.js
 ```
 
 
-## Sample config.json
+#### Sample config.json
 ```
 {
   "app_title" : "dtail",
