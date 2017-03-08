@@ -1,0 +1,37 @@
+{
+  "app_title" : "dtail",
+  "nodes": [
+    {
+      "hostname": "mservices.example.com",
+      "username": "user",
+      "password": "12345",
+      "sudo": true,
+      "files": [
+        {
+          "disp_name" : "mService1",
+          "file_path" : "/opt/mservice1/logs/server.log",
+          "filter" : "com.example.some.utils"
+        },
+        {
+          "disp_name" : "mService2",
+          "file_path" : "/opt/mservice2/logs/server.log"
+        }
+      ]
+    }, 
+    {
+      "hostname": "proxy.example.com",
+      "username": "user",
+      "password": "1234567",
+      "sudo": false,
+      "files": [
+        {
+          "disp_name" : "AccessLog",
+          "file_path" : "/var/log/apache2/access.log",
+          "filter" : "/mservice"
+        }
+      ]
+    }
+  ],
+  "write_log": true,
+  "log_file": "/tmp/dtail.log"
+}
