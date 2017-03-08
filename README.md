@@ -1,5 +1,5 @@
 # dtail
-A simple nodejs based tool to tail logs from a distributed cluster
+A simple nodejs based tool to tail logs over ssh from multiple files from multiple nodes in a cluster.
 
 #### Install
 Install the npm dependencies locally to the project
