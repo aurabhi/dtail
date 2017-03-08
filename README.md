@@ -9,8 +9,8 @@ npm install
 ```
 
 #### Configure 
-Configure your cluster and its ssh access credentials via the config.json file.
-*Note*: The *filter* param takes the regex accepted by unix *grep*
+Configure your cluster and its ssh access credentials via the config.json file.  
+**Note**: The **filter** param takes the regex accepted by unix **grep**
 
 
 #### Run
